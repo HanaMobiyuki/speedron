@@ -1,0 +1,1161 @@
+﻿[2016.02.23-07.28.50:790][  0]Log file open, 02/23/16 08:28:50
+[2016.02.23-07.28.50:790][  0]LogInit:Display: Running engine for game: speedron
+[2016.02.23-07.28.50:790][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.23-07.28.50:790][  0]LogInit:Display: RandInit(285412434) SRandInit(285412436).
+[2016.02.23-07.28.50:790][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.23-07.28.50:790][  0]LogStats: Stats thread started at 0.953952
+[2016.02.23-07.28.50:790][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.23-07.28.50:790][  0]LogInit: API Version: 2758231
+[2016.02.23-07.28.50:790][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.23-07.28.50:790][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.23-07.28.50:790][  0]LogInit: Build Configuration: Development
+[2016.02.23-07.28.50:790][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.23-07.28.50:790][  0]LogInit: Command line: 
+[2016.02.23-07.28.50:790][  0]LogInit: Base directory: D:/unreal engine/Engine/Binaries/Win64/
+[2016.02.23-07.28.50:790][  0]LogInit: Rocket: 1
+[2016.02.23-07.28.50:870][  0]LogInit: Using libcurl 7.41.0
+[2016.02.23-07.28.50:870][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.23-07.28.50:870][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.23-07.28.50:870][  0]LogInit:  - other features:
+[2016.02.23-07.28.50:870][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.23-07.28.50:870][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.23-07.28.50:870][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.23-07.28.50:870][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.23-07.28.50:870][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.23-07.28.50:870][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.23-07.28.50:870][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.23-07.28.50:870][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.23-07.28.50:870][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.23-07.28.50:870][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.23-07.28.51:036][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.23-07.28.51:095][  0]LogInit: Object subsystem initialized
+[2016.02.23-07.28.51:170][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.23-07.28.51:170][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.23-07.28.51:240][  0]LogInit: Computer: SSI-SV11
+[2016.02.23-07.28.51:240][  0]LogInit: User: delaunay
+[2016.02.23-07.28.51:240][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.23-07.28.51:240][  0]LogInit: High frequency timer resolution =2.923115 MHz
+[2016.02.23-07.28.51:240][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.02.23-07.28.51:240][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.23-07.28.51:240][  0]LogMemory: Process Physical Memory: 55.05 MB used, 55.05 MB peak
+[2016.02.23-07.28.51:240][  0]LogMemory: Process Virtual Memory: 57.93 MB used, 57.93 MB peak
+[2016.02.23-07.28.51:240][  0]LogMemory: Physical Memory: 1956.03 MB used, 3981.19 MB total
+[2016.02.23-07.28.51:240][  0]LogMemory: Virtual Memory: 352.27 MB used, 8388608.00 MB total
+[2016.02.23-07.28.52:222][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.23-07.28.53:146][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA Quadro 410  (Feature Level 11_0)
+[2016.02.23-07.28.53:146][  0]LogD3D11RHI: Adapter has 463MB of dedicated video memory, 0MB of dedicated system memory, and 1734MB of shared system memory, 1 output[s]
+[2016.02.23-07.28.53:146][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.23-07.28.53:151][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.23-07.28.53:152][  0]LogRHI: Texture pool is 324 MB (70% of 463 MB)
+[2016.02.23-07.28.53:166][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.23-07.28.53:367][  0]LogShaderCompilers: Guid format shader working directory is 32 characters bigger than the processId version (../../../speedron/Intermediate/Shaders/WorkingDirectory/5368/).
+[2016.02.23-07.28.53:368][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/delaunay/AppData/Local/Temp/UnrealShaderWorkingDir/DFAB624A4046F6F8BC6305A597E0855F/'.
+[2016.02.23-07.28.53:368][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.23-07.28.57:460][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.23-07.28.57:465][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.23-07.28.57:470][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.23-07.28.57:476][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.23-07.28.57:481][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.23-07.28.57:487][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.23-07.28.57:491][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.23-07.28.57:495][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.23-07.28.57:499][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.23-07.28.57:503][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.23-07.28.57:507][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.23-07.28.57:515][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.23-07.28.57:515][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.23-07.28.57:516][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.23-07.28.57:730][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.23-07.28.57:734][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.23-07.28.57:738][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.23-07.28.57:763][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.23-07.28.57:763][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.23-07.29.02:766][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.23-07.29.03:337][  0]LogDerivedDataCache: Loaded boot cache 0.57s 41MB C:/Users/delaunay/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.23-07.29.03:337][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/delaunay/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.23-07.29.03:337][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../speedron/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.23-07.29.03:337][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.23-07.29.03:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../speedron/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.23-07.29.03:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.23-07.29.03:471][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.23-07.29.03:484][  0]LogDerivedDataCache: Using Local data cache path C:/Users/delaunay/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.23-07.29.14:210][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.23-07.29.14:224][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.23-07.29.14:733][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.23-07.29.14:733][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.23-07.29.17:297][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.23-07.29.24:794][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2016.02.23-07.29.24:827][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.23-07.29.29:023][  0]SourceControl: Info Source control is disabled
+[2016.02.23-07.29.29:024][  0]SourceControl: Info Source control is disabled
+[2016.02.23-07.29.29:077][  0]SourceControl: Info Source control is disabled
+[2016.02.23-07.29.29:100][  0]SourceControl: Info Source control is disabled
+[2016.02.23-07.29.29:997][  0]LogObj: 28803 objects as part of root set at end of initial load.
+[2016.02.23-07.29.29:997][  0]LogUObjectAllocator: 6130056 out of 0 bytes used by permanent object pool.
+[2016.02.23-07.29.30:447][  0]LogEngine: Initializing Engine...
+[2016.02.23-07.29.30:471][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.23-07.29.30:516][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.23-07.29.31:257][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.23-07.29.31:471][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.29.31:522][  0]LogInit: FAudioDevice initialized.
+[2016.02.23-07.29.31:553][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/delaunay/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.23-07.29.31:560][  0]LogInit: Texture streaming: Enabled
+[2016.02.23-07.29.31:566][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.23-07.29.31:566][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.23-07.29.31:566][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 877a41264effc447fa0c63889bd695e7||30544b93-2834-47a8-9cb3-12e8be105d24
+[2016.02.23-07.29.31:589][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.23-07.29.31:634][  0]LogInit: Transaction tracking system initialized
+[2016.02.23-07.29.31:762][  0]BlueprintLog: New page: Editor Load
+[2016.02.23-07.29.32:345][  0]LocalizationService: Info Localization service is disabled
+[2016.02.23-07.29.32:565][  0]LogConsoleResponse:Display: 
+[2016.02.23-07.29.35:244][  0]LogFileCache: Scanning file cache for directory 'D:/unreal engine/speedron/Content/' took 0.01s
+[2016.02.23-07.29.35:244][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.23-07.29.36:657][  0]SourceControl: Info Source control is disabled
+[2016.02.23-07.29.36:693][  0]Cmd: MAP LOAD FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.23-07.29.36:804][  0]LightingResults: New page: Lighting Build
+[2016.02.23-07.29.37:037][  0]MapCheck: New page: Map Check
+[2016.02.23-07.29.37:037][  0]LightingResults: New page: Lighting Build
+[2016.02.23-07.29.37:179][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000230291C0
+[2016.02.23-07.29.41:006][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.29.41:489][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.23-07.29.41:510][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_19.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_20.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_21.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_22.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_23.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_24.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning TwinStickPawn_317 TwinStickPawn_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickPawn_317 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickPawn_317.ShipMeshComponent : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall1_17.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Floor_18.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:851][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Obstacle1_2.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Obstacle2_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall1_17.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall5.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall6.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall7.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_19.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_20.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_21.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_22.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_23.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_24.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.23-07.29.41:852][  0]MapCheck: Info Map check complete: 0 Error(s), 24 Warning(s), took 342.33ms to complete.
+[2016.02.23-07.29.41:857][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 5.195
+[2016.02.23-07.29.42:420][  0]LogCollectionManager: Loaded 0 collections in 0.002129 seconds
+[2016.02.23-07.29.42:475][  0]LogFileCache: Scanning file cache for directory 'D:/unreal engine/speedron/Saved/Collections/' took 0.01s
+[2016.02.23-07.29.42:475][  0]LogFileCache: Scanning file cache for directory 'D:/unreal engine/speedron/Content/Developers/delaunay/Collections/' took 0.01s
+[2016.02.23-07.29.42:475][  0]LogFileCache: Scanning file cache for directory 'D:/unreal engine/speedron/Content/Collections/' took 0.01s
+[2016.02.23-07.29.42:475][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.02.23-07.29.42:491][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 1908 classes and 344 folders.
+[2016.02.23-07.29.42:544][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.02.23-07.29.43:921][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.02.23-07.29.43:939][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.02.23-07.29.44:328][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.23-07.29.44:383][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.23-07.29.44:420][  0]LogLoad: Full Startup: 57.44 seconds (BP compile: 0.41 seconds)
+[2016.02.23-07.29.44:433][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.23-07.29.44:585][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.23-07.29.45:017][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.23-07.29.46:184][  4]LogAssetRegistry: Asset discovery search completed in 21.3781 seconds
+[2016.02.23-07.29.46:184][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.23-07.29.46:184][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2016.02.23-07.29.51:924][ 81]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.23-07.29.52:821][ 81]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 107 classes and 0 folders.
+[2016.02.23-07.30.09:218][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.30.10:301][571]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.10:868][572]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.12:188][573]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.13:504][573]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.14:219][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.15:307][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.02.23-07.30.20:428][905]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.02.23-07.30.20:428][905]LogSynthBenchmark:Display: ===============
+[2016.02.23-07.30.20:428][905]LogSynthBenchmark:Display: Main Processor:
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:          ... 0.023930 s/Run 'RayIntersect'
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:          ... 0.026332 s/Run 'Fractal'
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display: 
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 4
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   NumberOfCores (logical): 2
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   CPU Perf Index 0: 107.0
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   CPU Perf Index 1: 108.6
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:  
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display: Graphics:
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA Quadro 410 '
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   GPU Memory: 464/0/1735 MB
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   CPUIndex: 107.0
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:   GPUIndex: -nan(ind)
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display: 
+[2016.02.23-07.30.20:478][905]LogSynthBenchmark:Display:          ... Total Time: 0.050535 sec
+[2016.02.23-07.30.20:848][905]LogWindows:Warning: FWindowsPlatformSurvey::TickSurveyHardware() WinSAT assessment unavailable. Unable to examine some hardware metrics. Run the Windows Experience Index Assessment.
+[2016.02.23-07.31.23:395][484]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.31.23:866][484]BlueprintEditorCompileResults: Info [0156.82] Compile of TwinStickPawn successful! [in 470 ms]
+[2016.02.23-07.31.24:146][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.31.24:455][489]LogSavePackage: Save=197.962448ms
+[2016.02.23-07.31.24:455][489]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn37EC70E148F6151B6EAEB6B6200DA3E0.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.31.24:459][489]LogSavePackage: Total save time: 309.222527ms
+[2016.02.23-07.31.24:460][489]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.31.33:997][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.31.35:148][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2016.02.23-07.31.35:989][290]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.31.36:072][290]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_1) Not registered. Aborting.
+[2016.02.23-07.31.36:170][290]BlueprintEditorCompileResults: Info [0169.12] Compile of TwinStickPawn successful! [in 181 ms]
+[2016.02.23-07.31.36:593][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.31.36:672][314]LogSavePackage: Save=62.971180ms
+[2016.02.23-07.31.36:672][314]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn74DE001D40BE478C8C6D84B1E672DF85.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.31.36:676][314]LogSavePackage: Total save time: 80.042351ms
+[2016.02.23-07.31.36:676][314]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.32.00:342][  4]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.33.33:472][727]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.33.33:541][727]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_2) Not registered. Aborting.
+[2016.02.23-07.33.33:623][727]BlueprintEditorCompileResults: Info [0286.53] Compile of TwinStickPawn successful! [in 150 ms]
+[2016.02.23-07.33.33:963][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.33.34:043][746]LogSavePackage: Save=75.888222ms
+[2016.02.23-07.33.34:043][746]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn8487C8774A0972FD303756A3F29C9CDB.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.33.34:047][746]LogSavePackage: Total save time: 80.704316ms
+[2016.02.23-07.33.34:047][746]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.33.34:747][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.33.34:778][787]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:33:34 AM)
+[2016.02.23-07.33.34:779][787]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.33.34:821][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042812s)
+[2016.02.23-07.33.34:822][787]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.33.34:823][787]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2016.02.23-07.33.34:831][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.052474s)
+[2016.02.23-07.33.34:843][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.33.34:905][787]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.33.34:947][787]LogInit: FAudioDevice initialized.
+[2016.02.23-07.33.35:105][787]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.33.35:230][787]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.33.35
+[2016.02.23-07.33.35:230][787]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.33.35:230][787]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.33.35:240][787]LogWorld: Bringing up level for play took: 0.017714
+[2016.02.23-07.33.35:675][787]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.625
+[2016.02.23-07.33.35:962][788]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:434).
+[2016.02.23-07.33.42:346][820]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000684A9E40
+[2016.02.23-07.33.48:067][ 76]LogContentStreaming: Texture pool size now 200 MB
+[2016.02.23-07.33.48:100][ 78]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:499).
+[2016.02.23-07.33.52:462][245]LogEditorViewport: Clicking on Actor (LMB): TwinStickPawn_C (TwinStickPawn)
+[2016.02.23-07.33.59:218][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.33.59:218][455]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:33:59 AM)
+[2016.02.23-07.33.59:218][455]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.33.59:228][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010479s)
+[2016.02.23-07.33.59:229][455]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.33.59:229][455]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2016.02.23-07.33.59:230][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.011723s)
+[2016.02.23-07.33.59:357][455]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.33.59:370][455]LogInit: FAudioDevice initialized.
+[2016.02.23-07.33.59:508][455]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.33.59:515][455]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.33.59
+[2016.02.23-07.33.59:515][455]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.33.59:515][455]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.33.59:515][455]LogWorld: Bringing up level for play took: 0.006831
+[2016.02.23-07.33.59:517][455]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.458
+[2016.02.23-07.34.04:860][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031C6A5C0
+[2016.02.23-07.34.15:447][514]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.34.15:514][514]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.34.15:565][514]BlueprintEditorCompileResults: Info [0328.45] Compile of TwinStickPawn successful! [in 117 ms]
+[2016.02.23-07.34.15:867][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.34.15:948][533]LogSavePackage: Save=77.038704ms
+[2016.02.23-07.34.15:948][533]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawnCC1388794E623054EE05DE8876CE6011.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.34.15:951][533]LogSavePackage: Total save time: 81.063181ms
+[2016.02.23-07.34.15:951][533]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.34.16:519][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.34.16:519][575]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:34:16 AM)
+[2016.02.23-07.34.16:520][575]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.34.16:528][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008019s)
+[2016.02.23-07.34.16:529][575]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.34.16:529][575]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2016.02.23-07.34.16:529][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009513s)
+[2016.02.23-07.34.16:529][575]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.34.16:600][575]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.34.16:608][575]LogInit: FAudioDevice initialized.
+[2016.02.23-07.34.16:670][575]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.34.16:675][575]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.34.16
+[2016.02.23-07.34.16:675][575]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.34.16:675][575]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.34.16:675][575]LogWorld: Bringing up level for play took: 0.004485
+[2016.02.23-07.34.16:690][575]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.375
+[2016.02.23-07.34.19:432][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000307F39C0
+[2016.02.23-07.34.40:242][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.34.40:314][829]LogSavePackage: Save=66.328896ms
+[2016.02.23-07.34.40:314][829]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawnF7EA89D04D360B1836BC7298541D23DB.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.34.40:316][829]LogSavePackage: Total save time: 68.749260ms
+[2016.02.23-07.34.40:316][829]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.39.57:973][555]LogSavePackage: Save=594.660156ms
+[2016.02.23-07.39.57:973][555]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMap_Auto1A81CFD0A44EE4D19DFF6338EEC2B4380.tmp' to '../../../speedron/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto1.umap'
+[2016.02.23-07.39.57:975][555]LogSavePackage: Total save time: 637.701903ms
+[2016.02.23-07.39.57:975][555]LogSavePackage:Display: Finished SavePackage ../../../speedron/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto1.umap
+[2016.02.23-07.39.58:001][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.746
+[2016.02.23-07.39.58:001][555]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.746
+[2016.02.23-07.43.21:287][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.43.21:287][773]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:43:21 AM)
+[2016.02.23-07.43.21:287][773]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.43.21:297][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009575s)
+[2016.02.23-07.43.21:297][773]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.43.21:298][773]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2016.02.23-07.43.21:298][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.010916s)
+[2016.02.23-07.43.21:369][773]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.43.21:378][773]LogInit: FAudioDevice initialized.
+[2016.02.23-07.43.21:448][773]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.43.21:453][773]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.43.21
+[2016.02.23-07.43.21:453][773]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.43.21:453][773]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.43.21:453][773]LogWorld: Bringing up level for play took: 0.004668
+[2016.02.23-07.43.21:467][773]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.001
+[2016.02.23-07.43.26:471][978]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011EABF60
+[2016.02.23-07.43.38:463][816]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.23-07.43.38:468][816]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.43.38:472][816]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2016.02.23-07.43.38:544][816]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
+[2016.02.23-07.43.38:590][816]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:43:38 AM)
+[2016.02.23-07.43.38:590][816]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.43.38:598][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008157s)
+[2016.02.23-07.43.38:599][816]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.43.38:599][816]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2016.02.23-07.43.38:599][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009313s)
+[2016.02.23-07.43.38:670][816]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.43.38:677][816]LogInit: FAudioDevice initialized.
+[2016.02.23-07.43.38:739][816]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.43.38:744][816]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.43.38
+[2016.02.23-07.43.38:744][816]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.43.38:744][816]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.43.38:744][816]LogWorld: Bringing up level for play took: 0.004704
+[2016.02.23-07.43.38:758][816]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.284
+[2016.02.23-07.43.43:276][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.43.43:364][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030A42160
+[2016.02.23-07.43.44:297][ 64]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.43.44:411][ 64]BlueprintEditorCompileResults: Info [0896.89] Compile of TwinStickPawn successful! [in 113 ms]
+[2016.02.23-07.44.16:655][370]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.23-07.44.16:660][370]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.44.16:664][370]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2016.02.23-07.44.16:738][370]LogPlayLevel: PlayLevel: Blueprint regeneration took 82 ms (1 blueprints)
+[2016.02.23-07.44.16:783][370]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:44:16 AM)
+[2016.02.23-07.44.16:783][370]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.44.16:791][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007776s)
+[2016.02.23-07.44.16:792][370]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.44.16:792][370]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2016.02.23-07.44.16:792][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009256s)
+[2016.02.23-07.44.16:859][370]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.44.16:866][370]LogInit: FAudioDevice initialized.
+[2016.02.23-07.44.16:938][370]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.44.16:946][370]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.44.16
+[2016.02.23-07.44.16:946][370]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.44.16:947][370]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.44.16:947][370]LogWorld: Bringing up level for play took: 0.007842
+[2016.02.23-07.44.16:962][370]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.53
+[2016.02.23-07.44.45:309][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.44.45:384][598]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055A865C0
+[2016.02.23-07.45.19:874][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.45.20:029][155]LogSavePackage: Save=105.990700ms
+[2016.02.23-07.45.20:029][155]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn5CC382B142BDC41E8258B2AF88ECBB6D.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.45.20:033][155]LogSavePackage: Total save time: 155.422900ms
+[2016.02.23-07.45.20:033][155]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.45.38:566][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.45.40:365][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Maps/TwinStickExampleMap" FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.23-07.45.40:863][521]LogSavePackage: Save=419.358795ms
+[2016.02.23-07.45.40:863][521]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMap4C69E0B348F813234C4A3DB0D5A90E2D.tmp' to '../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.23-07.45.40:867][521]LogSavePackage: Total save time: 458.258398ms
+[2016.02.23-07.45.40:867][521]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.23-07.45.40:922][521]LogFileHelpers: Saving map 'TwinStickExampleMap' took 2.290
+[2016.02.23-07.45.45:060][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.45.45:060][784]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:45:45 AM)
+[2016.02.23-07.45.45:060][784]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.45.45:067][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006884s)
+[2016.02.23-07.45.45:068][784]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.45.45:068][784]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2016.02.23-07.45.45:068][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007946s)
+[2016.02.23-07.45.45:142][784]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.45.45:154][784]LogInit: FAudioDevice initialized.
+[2016.02.23-07.45.45:201][784]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.45.45:208][784]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.45.45
+[2016.02.23-07.45.45:209][784]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.45.45:209][784]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.45.45:209][784]LogWorld: Bringing up level for play took: 0.007210
+[2016.02.23-07.45.45:211][784]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.322
+[2016.02.23-07.46.16:158][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000307AA3E0
+[2016.02.23-07.46.23:462][ 61]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.23-07.46.23:467][ 61]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.46.23:471][ 61]LogPlayLevel: [PlayLevel] Compiling TwinStickPawn before play...
+[2016.02.23-07.46.23:543][ 61]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2016.02.23-07.46.23:586][ 61]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:46:23 AM)
+[2016.02.23-07.46.23:586][ 61]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.46.23:593][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006818s)
+[2016.02.23-07.46.23:594][ 61]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.46.23:594][ 61]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2016.02.23-07.46.23:594][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008031s)
+[2016.02.23-07.46.23:660][ 61]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.46.23:667][ 61]LogInit: FAudioDevice initialized.
+[2016.02.23-07.46.23:739][ 61]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.46.23:746][ 61]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.46.23
+[2016.02.23-07.46.23:746][ 61]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.46.23:747][ 61]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.46.23:747][ 61]LogWorld: Bringing up level for play took: 0.006413
+[2016.02.23-07.46.23:759][ 61]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.208
+[2016.02.23-07.46.56:185][465]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.46.56:258][466]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B10CCC0
+[2016.02.23-07.47.01:946][891]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.47.02:013][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.47.02:061][891]BlueprintEditorCompileResults: Info [1094.45] Compile of TwinStickPawn successful! [in 113 ms]
+[2016.02.23-07.47.02:364][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.47.02:442][911]LogSavePackage: Save=73.503441ms
+[2016.02.23-07.47.02:442][911]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn4EAA60EE44CE2640E7C3B2A14903EFE6.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.47.02:446][911]LogSavePackage: Total save time: 78.536764ms
+[2016.02.23-07.47.02:446][911]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.47.26:762][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Maps/TwinStickExampleMap" FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.23-07.47.26:767][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.47.26:767][701]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.47.27:238][701]LogSavePackage: Save=405.727448ms
+[2016.02.23-07.47.27:238][701]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMap03A61BBA4A763D85B20D268EB1A25930.tmp' to '../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.23-07.47.27:241][701]LogSavePackage: Total save time: 410.799779ms
+[2016.02.23-07.47.27:241][701]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.23-07.47.28:297][722]LogActor:Warning: GameNetworkManager /Engine/Transient.World_5:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.47.33:248][175]BlueprintLog: New page: Compile TwinStickGameMode
+[2016.02.23-07.47.33:291][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.47.33:291][175]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.47.33:337][175]BlueprintEditorCompileResults: Info [1125.71] Compile of TwinStickGameMode successful! [in 88 ms]
+[2016.02.23-07.47.33:700][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickGameMode" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset" SILENT=true
+[2016.02.23-07.47.33:715][205]LogSavePackage: Save=9.005119ms
+[2016.02.23-07.47.33:715][205]LogSavePackage: Moving '../../../speedron/Saved/TwinStickGameModeE9D4379C4B622325E5832DAB9D0E4F45.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2016.02.23-07.47.33:718][205]LogSavePackage: Total save time: 15.412323ms
+[2016.02.23-07.47.33:718][205]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2016.02.23-07.47.38:031][396]LogRenderer: Reallocating scene render targets to support 1280x900 (Frame:9022).
+[2016.02.23-07.47.39:367][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.47.39:383][449]LogSavePackage: Save=12.394312ms
+[2016.02.23-07.47.39:383][449]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controllerAC45690F4793440F869AAE998207EFD0.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.47.39:386][449]LogSavePackage: Total save time: 15.630584ms
+[2016.02.23-07.47.39:386][449]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.47.50:162][198]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.23-07.47.53:102][437]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.47.53:164][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.47.53:165][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.47.53:206][437]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000031C6AF20
+[2016.02.23-07.47.53:211][437]BlueprintEditorCompileResults: Info [1145.57] Compile of BP_speedron_controller successful! [in 109 ms]
+[2016.02.23-07.47.53:602][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.47.53:619][468]LogSavePackage: Save=11.322168ms
+[2016.02.23-07.47.53:619][468]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controller02DF72884FEE692B0A39678860B226BD.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.47.53:622][468]LogSavePackage: Total save time: 17.951056ms
+[2016.02.23-07.47.53:622][468]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.48.03:105][266]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.48.03:195][266]BlueprintEditorCompileResults: Info [1155.56] Compile of BP_speedron_controller successful! [in 89 ms]
+[2016.02.23-07.48.03:619][299]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.48.03:634][299]LogSavePackage: Save=11.085093ms
+[2016.02.23-07.48.03:634][299]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controller690B8E724473200D9423E08788AD4765.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.48.03:637][299]LogSavePackage: Total save time: 15.517693ms
+[2016.02.23-07.48.03:637][299]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.48.08:420][697]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.48.08:508][697]BlueprintEditorCompileResults: Info [1160.87] Compile of BP_speedron_controller successful! [in 88 ms]
+[2016.02.23-07.48.08:837][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.48.08:852][722]LogSavePackage: Save=11.086119ms
+[2016.02.23-07.48.08:852][722]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controller593519B548564ACD57DAB181CEF14BE7.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.48.08:855][722]LogSavePackage: Total save time: 15.638113ms
+[2016.02.23-07.48.08:855][722]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.48.09:790][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.48.09:790][758]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:48:09 AM)
+[2016.02.23-07.48.09:790][758]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.48.09:799][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008456s)
+[2016.02.23-07.48.09:799][758]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.48.09:800][758]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2016.02.23-07.48.09:800][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009637s)
+[2016.02.23-07.48.09:869][758]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.48.09:877][758]LogInit: FAudioDevice initialized.
+[2016.02.23-07.48.09:912][758]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.48.09:917][758]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.48.09
+[2016.02.23-07.48.09:917][758]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.09:917][758]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.09:917][758]LogWorld: Bringing up level for play took: 0.004055
+[2016.02.23-07.48.09:918][758]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.325
+[2016.02.23-07.48.15:374][ 84]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006FD9CCC0
+[2016.02.23-07.48.19:509][393]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.48.19:599][393]BlueprintEditorCompileResults: Info [1171.96] Compile of BP_speedron_controller successful! [in 89 ms]
+[2016.02.23-07.48.19:938][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.48.19:952][419]LogSavePackage: Save=10.819964ms
+[2016.02.23-07.48.19:952][419]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controller315EE6B64F9345C376484B8245E033DC.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.48.19:956][419]LogSavePackage: Total save time: 15.481427ms
+[2016.02.23-07.48.19:956][419]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.48.20:836][450]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.48.20:836][450]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:48:20 AM)
+[2016.02.23-07.48.20:836][450]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.48.20:843][450]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007191s)
+[2016.02.23-07.48.20:844][450]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.48.20:844][450]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2016.02.23-07.48.20:845][450]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008406s)
+[2016.02.23-07.48.20:916][450]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.48.20:923][450]LogInit: FAudioDevice initialized.
+[2016.02.23-07.48.20:960][450]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.48.20:964][450]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.48.20
+[2016.02.23-07.48.20:964][450]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.20:965][450]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.20:965][450]LogWorld: Bringing up level for play took: 0.004171
+[2016.02.23-07.48.20:966][450]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.629
+[2016.02.23-07.48.23:235][551]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006F2C6D40
+[2016.02.23-07.48.29:246][ 34]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.48.29:336][ 34]BlueprintEditorCompileResults: Info [1181.69] Compile of BP_speedron_controller successful! [in 89 ms]
+[2016.02.23-07.48.29:689][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.48.29:703][ 61]LogSavePackage: Save=11.020778ms
+[2016.02.23-07.48.29:703][ 61]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controllerF90068D54F2F179A0B96FEA12940BB3D.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.48.29:707][ 61]LogSavePackage: Total save time: 15.588168ms
+[2016.02.23-07.48.29:707][ 61]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.48.30:567][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.48.30:567][100]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:48:30 AM)
+[2016.02.23-07.48.30:567][100]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.48.30:574][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007191s)
+[2016.02.23-07.48.30:575][100]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.48.30:575][100]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2016.02.23-07.48.30:575][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008327s)
+[2016.02.23-07.48.30:643][100]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.48.30:650][100]LogInit: FAudioDevice initialized.
+[2016.02.23-07.48.30:686][100]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.48.30:691][100]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.48.30
+[2016.02.23-07.48.30:691][100]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.30:691][100]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.48.30:691][100]LogWorld: Bringing up level for play took: 0.004051
+[2016.02.23-07.48.30:692][100]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.096
+[2016.02.23-07.48.32:703][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FCFD760
+[2016.02.23-07.48.42:217][976]BlueprintLog: New page: Compile BP_speedron_controller
+[2016.02.23-07.48.42:306][976]BlueprintEditorCompileResults: Info [1194.66] Compile of BP_speedron_controller successful! [in 88 ms]
+[2016.02.23-07.48.42:807][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_controller" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset" SILENT=true
+[2016.02.23-07.48.42:822][ 16]LogSavePackage: Save=11.106302ms
+[2016.02.23-07.48.42:822][ 16]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_controller864D0B9F435EE96E91139BBA9B02B96F.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset'
+[2016.02.23-07.48.42:825][ 16]LogSavePackage: Total save time: 15.527613ms
+[2016.02.23-07.48.42:825][ 16]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_controller.uasset
+[2016.02.23-07.49.28:232][520]LogActor:Warning: GameNetworkManager /Engine/Transient.World_8:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.49.31:499][824]BlueprintLog: New page: Compile TwinStickGameMode
+[2016.02.23-07.49.31:543][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.49.31:543][824]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.49.31:591][824]BlueprintEditorCompileResults: Info [1243.94] Compile of TwinStickGameMode successful! [in 91 ms]
+[2016.02.23-07.49.31:979][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickGameMode" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset" SILENT=true
+[2016.02.23-07.49.32:001][855]LogSavePackage: Save=16.306234ms
+[2016.02.23-07.49.32:002][855]LogSavePackage: Moving '../../../speedron/Saved/TwinStickGameMode57FF1E3544D3DA75891D17819DEA0240.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset'
+[2016.02.23-07.49.32:007][855]LogSavePackage: Total save time: 24.492364ms
+[2016.02.23-07.49.32:008][855]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickGameMode.uasset
+[2016.02.23-07.49.33:922][909]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.49.33:922][909]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:49:33 AM)
+[2016.02.23-07.49.33:922][909]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.49.33:929][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006753s)
+[2016.02.23-07.49.33:930][909]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.49.33:930][909]LogPlayLevel: PIE: World Init took: (0.001267s)
+[2016.02.23-07.49.33:930][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008265s)
+[2016.02.23-07.49.33:930][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.49.33:931][909]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.49.34:003][909]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.49.34:011][909]LogInit: FAudioDevice initialized.
+[2016.02.23-07.49.34:047][909]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.49.34:051][909]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.49.34
+[2016.02.23-07.49.34:051][909]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.49.34:051][909]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.49.34:051][909]LogWorld: Bringing up level for play took: 0.003942
+[2016.02.23-07.49.34:053][909]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.446
+[2016.02.23-07.49.35:672][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006CBF1EE0
+[2016.02.23-07.49.50:402][292]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.49.50:402][292]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:49:50 AM)
+[2016.02.23-07.49.50:403][292]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.49.50:410][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007811s)
+[2016.02.23-07.49.50:411][292]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.49.50:411][292]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2016.02.23-07.49.50:412][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009006s)
+[2016.02.23-07.49.50:412][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.49.50:412][292]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.49.50:482][292]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.49.50:490][292]LogInit: FAudioDevice initialized.
+[2016.02.23-07.49.50:527][292]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.49.50:532][292]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.49.50
+[2016.02.23-07.49.50:532][292]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.49.50:532][292]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.49.50:532][292]LogWorld: Bringing up level for play took: 0.004066
+[2016.02.23-07.49.50:533][292]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.924
+[2016.02.23-07.49.57:428][639]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006CBF0720
+[2016.02.23-07.52.09:418][359]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.52.09:490][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.52.09:490][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.52.09:542][359]BlueprintEditorCompileResults: Info [1401.86] Compile of TwinStickPawn successful! [in 123 ms]
+[2016.02.23-07.52.09:974][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.52.10:053][387]LogSavePackage: Save=73.350517ms
+[2016.02.23-07.52.10:053][387]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn6D5F3CEC4D8F870F7F143992F2B88BA2.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.52.10:056][387]LogSavePackage: Total save time: 79.813141ms
+[2016.02.23-07.52.10:056][387]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.52.56:650][782]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.52.56:720][782]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.52.56:773][782]BlueprintEditorCompileResults: Info [1449.09] Compile of TwinStickPawn successful! [in 122 ms]
+[2016.02.23-07.52.57:210][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.52.57:294][810]LogSavePackage: Save=80.685158ms
+[2016.02.23-07.52.57:294][810]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn3E4FF07E46819E2A285615819FC52748.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.52.57:297][810]LogSavePackage: Total save time: 84.721606ms
+[2016.02.23-07.52.57:297][810]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.52.57:796][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.52.57:796][845]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:52:57 AM)
+[2016.02.23-07.52.57:796][845]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.52.57:804][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007527s)
+[2016.02.23-07.52.57:805][845]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.52.57:805][845]LogPlayLevel: PIE: World Init took: (0.001198s)
+[2016.02.23-07.52.57:805][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008975s)
+[2016.02.23-07.52.57:805][845]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.52.57:876][845]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.52.57:884][845]LogInit: FAudioDevice initialized.
+[2016.02.23-07.52.57:948][845]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.52.57:953][845]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.52.57
+[2016.02.23-07.52.57:953][845]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.52.57:953][845]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.52.57:953][845]LogWorld: Bringing up level for play took: 0.004743
+[2016.02.23-07.52.57:968][845]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.329
+[2016.02.23-07.53.08:274][147]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004608C2C0
+[2016.02.23-07.53.19:827][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.53.19:827][860]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:53:19 AM)
+[2016.02.23-07.53.19:827][860]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.53.19:835][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007549s)
+[2016.02.23-07.53.19:836][860]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.53.19:836][860]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2016.02.23-07.53.19:836][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008714s)
+[2016.02.23-07.53.19:836][860]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.53.19:836][860]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.53.19:907][860]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.53.19:914][860]LogInit: FAudioDevice initialized.
+[2016.02.23-07.53.19:981][860]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.53.19:986][860]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.53.19
+[2016.02.23-07.53.19:986][860]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.53.19:986][860]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.53.19:986][860]LogWorld: Bringing up level for play took: 0.004593
+[2016.02.23-07.53.20:004][860]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.364
+[2016.02.23-07.53.22:765][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000091B23880
+[2016.02.23-07.53.30:010][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.53.30:073][447]BlueprintLog: New page: Compile TwinStickProjectile
+[2016.02.23-07.53.30:130][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.02.23-07.53.30:181][447]BlueprintEditorCompileResults: Info [1482.49] Compile of TwinStickProjectile successful! [in 108 ms]
+[2016.02.23-07.53.30:464][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickProjectile" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset" SILENT=true
+[2016.02.23-07.53.30:512][463]LogSavePackage: Save=40.566998ms
+[2016.02.23-07.53.30:512][463]LogSavePackage: Moving '../../../speedron/Saved/TwinStickProjectileF0FE1A0E406F6E5F41970FB54936B383.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset'
+[2016.02.23-07.53.30:515][463]LogSavePackage: Total save time: 47.768906ms
+[2016.02.23-07.53.30:515][463]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset
+[2016.02.23-07.53.31:156][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.53.31:156][507]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:53:31 AM)
+[2016.02.23-07.53.31:156][507]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.53.31:163][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007284s)
+[2016.02.23-07.53.31:164][507]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.53.31:164][507]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2016.02.23-07.53.31:165][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008437s)
+[2016.02.23-07.53.31:165][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.53.31:165][507]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.53.31:240][507]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.53.31:248][507]LogInit: FAudioDevice initialized.
+[2016.02.23-07.53.31:315][507]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.53.31:320][507]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.53.31
+[2016.02.23-07.53.31:320][507]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.53.31:320][507]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.53.31:320][507]LogWorld: Bringing up level for play took: 0.004201
+[2016.02.23-07.53.31:331][507]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.311
+[2016.02.23-07.53.34:979][640]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008C4B1940
+[2016.02.23-07.53.41:449][ 72]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.53.41:516][ 77]BlueprintLog: New page: Compile TwinStickProjectile
+[2016.02.23-07.53.41:573][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.02.23-07.53.41:623][ 77]BlueprintEditorCompileResults: Info [1493.93] Compile of TwinStickProjectile successful! [in 107 ms]
+[2016.02.23-07.53.41:993][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickProjectile" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset" SILENT=true
+[2016.02.23-07.53.42:036][ 99]LogSavePackage: Save=39.854401ms
+[2016.02.23-07.53.42:036][ 99]LogSavePackage: Moving '../../../speedron/Saved/TwinStickProjectile64EA037A4243FBB1616D3D96F6D7DA15.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset'
+[2016.02.23-07.53.42:039][ 99]LogSavePackage: Total save time: 44.206951ms
+[2016.02.23-07.53.42:039][ 99]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickProjectile.uasset
+[2016.02.23-07.53.54:754][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-07.53.54:755][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.54.05:716][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_3) Not registered. Aborting.
+[2016.02.23-07.54.38:411][ 63]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.54.38:567][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_4) Not registered. Aborting.
+[2016.02.23-07.54.38:621][ 63]BlueprintEditorCompileResults: Info [1550.93] Compile of TwinStickPawn successful! [in 210 ms]
+[2016.02.23-07.54.38:844][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.54.38:935][ 75]LogSavePackage: Save=87.466278ms
+[2016.02.23-07.54.38:935][ 75]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn45CE2D2C49DFAF52D729FDB89979AEDE.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.54.38:938][ 75]LogSavePackage: Total save time: 91.919750ms
+[2016.02.23-07.54.38:938][ 75]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.54.39:494][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.54.39:494][114]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:54:39 AM)
+[2016.02.23-07.54.39:494][114]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.54.39:502][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008007s)
+[2016.02.23-07.54.39:503][114]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.54.39:503][114]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2016.02.23-07.54.39:503][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009083s)
+[2016.02.23-07.54.39:503][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.54.39:577][114]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.54.39:585][114]LogInit: FAudioDevice initialized.
+[2016.02.23-07.54.39:648][114]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.54.39:652][114]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.54.39
+[2016.02.23-07.54.39:652][114]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.54.39:653][114]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.54.39:653][114]LogWorld: Bringing up level for play took: 0.004240
+[2016.02.23-07.54.39:670][114]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.024
+[2016.02.23-07.55.00:002][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000009493E160
+[2016.02.23-07.56.28:006][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.56.28:100][179]LogSavePackage: Save=79.388939ms
+[2016.02.23-07.56.28:100][179]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawnF920481748301D67CADF92962A51106D.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.56.28:102][179]LogSavePackage: Total save time: 82.392246ms
+[2016.02.23-07.56.28:102][179]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.56.33:450][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Maps/TwinStickExampleMap" FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.23-07.56.33:910][409]LogSavePackage: Save=406.020630ms
+[2016.02.23-07.56.33:910][409]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMapA4C17C2540895D4AA1257DBA5337EDC0.tmp' to '../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.23-07.56.33:913][409]LogSavePackage: Total save time: 415.674716ms
+[2016.02.23-07.56.33:913][409]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.23-07.56.33:941][409]LogFileHelpers: Saving map 'TwinStickExampleMap' took 2.895
+[2016.02.23-07.56.33:951][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/BP_speedron_HUD" FILE="../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_HUD.uasset" SILENT=true
+[2016.02.23-07.56.33:965][409]LogSavePackage: Save=11.761084ms
+[2016.02.23-07.56.33:965][409]LogSavePackage: Moving '../../../speedron/Saved/BP_speedron_HUDC86D6ED6426D01C0CB51FDB05CAA8E4D.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_HUD.uasset'
+[2016.02.23-07.56.33:968][409]LogSavePackage: Total save time: 14.818095ms
+[2016.02.23-07.56.33:968][409]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/BP_speedron_HUD.uasset
+[2016.02.23-07.57.43:468][340]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.57.43:543][340]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.57.43:599][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052C08EA0
+[2016.02.23-07.57.43:599][340]BlueprintEditorCompileResults: Info [1735.91] Compile of TwinStickPawn successful! [in 130 ms]
+[2016.02.23-07.57.43:927][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.57.44:024][360]LogSavePackage: Save=90.117905ms
+[2016.02.23-07.57.44:024][360]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawn56B4B3EF4F57C45E30204899741E5642.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.57.44:027][360]LogSavePackage: Total save time: 96.693426ms
+[2016.02.23-07.57.44:027][360]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.57.45:526][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-07.57.45:526][466]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 9:57:45 AM)
+[2016.02.23-07.57.45:526][466]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-07.57.45:534][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007392s)
+[2016.02.23-07.57.45:535][466]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-07.57.45:535][466]LogPlayLevel: PIE: World Init took: (0.001187s)
+[2016.02.23-07.57.45:535][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008867s)
+[2016.02.23-07.57.45:536][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.57.45:610][466]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-07.57.45:618][466]LogInit: FAudioDevice initialized.
+[2016.02.23-07.57.45:679][466]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-07.57.45:684][466]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-08.57.45
+[2016.02.23-07.57.45:684][466]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.57.45:684][466]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-07.57.45:684][466]LogWorld: Bringing up level for play took: 0.004582
+[2016.02.23-07.57.45:699][466]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.058
+[2016.02.23-07.58.41:069][731]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008E6A4180
+[2016.02.23-07.58.57:982][945]BlueprintLog: New page: Compile TwinStickPawn
+[2016.02.23-07.58.58:057][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.58.58:109][945]BlueprintEditorCompileResults: Info [1810.43] Compile of TwinStickPawn successful! [in 126 ms]
+[2016.02.23-07.58.58:515][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-07.58.58:607][971]LogSavePackage: Save=87.778961ms
+[2016.02.23-07.58.58:607][971]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawnF751CDAD48E2941D6FEBC292EE52E116.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-07.58.58:610][971]LogSavePackage: Total save time: 92.416141ms
+[2016.02.23-07.58.58:610][971]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-07.59.16:364][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-07.59.18:064][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Maps/TwinStickExampleMap" FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.23-07.59.18:516][267]LogSavePackage: Save=405.008698ms
+[2016.02.23-07.59.18:516][267]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMapC5D6808243F530CCE489CEB89477CE66.tmp' to '../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.23-07.59.18:519][267]LogSavePackage: Total save time: 409.541532ms
+[2016.02.23-07.59.18:519][267]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.23-07.59.18:547][267]LogFileHelpers: Saving map 'TwinStickExampleMap' took 2.118
+[2016.02.23-08.08.53:815][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/TwinStickPawn" FILE="../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset" SILENT=true
+[2016.02.23-08.08.53:899][310]LogSavePackage: Save=78.473137ms
+[2016.02.23-08.08.53:899][310]LogSavePackage: Moving '../../../speedron/Saved/TwinStickPawnE94634C94D3F42CDF42ABDAF060D7960.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset'
+[2016.02.23-08.08.53:903][310]LogSavePackage: Total save time: 85.546412ms
+[2016.02.23-08.08.53:903][310]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/TwinStickPawn.uasset
+[2016.02.23-08.10.01:613][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.10.01:614][333]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.10.04:281][451]BlueprintLog: New page: Compile NewBlueprint
+[2016.02.23-08.10.04:396][451]BlueprintEditorCompileResults: Info [2476.70] Compile of NewBlueprint successful! [in 115 ms]
+[2016.02.23-08.10.05:011][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/NewBlueprint" FILE="../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset" SILENT=true
+[2016.02.23-08.10.05:037][477]LogSavePackage: Save=22.836597ms
+[2016.02.23-08.10.05:037][477]LogSavePackage: Moving '../../../speedron/Saved/NewBlueprintF7AF03354A9D7BDA550DD7AD89CA3B2A.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset'
+[2016.02.23-08.10.05:041][477]LogSavePackage: Total save time: 26.465602ms
+[2016.02.23-08.10.05:041][477]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset
+[2016.02.23-08.13.01:128][200]BlueprintLog: New page: Compile TwinStickProjectile
+[2016.02.23-08.13.01:246][200]BlueprintEditorCompileResults: Info [2653.55] Compile of TwinStickProjectile successful! [in 118 ms]
+[2016.02.23-08.14.06:716][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.14.06:716][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.14.07:295][  1]LogSavePackage: Save=437.059448ms
+[2016.02.23-08.14.07:295][  1]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMap_Auto25856B55F403B00D60FEEC4A67322D7CA.tmp' to '../../../speedron/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto2.umap'
+[2016.02.23-08.14.07:296][  1]LogSavePackage: Total save time: 525.735389ms
+[2016.02.23-08.14.07:296][  1]LogSavePackage:Display: Finished SavePackage ../../../speedron/Saved/Autosaves/Game/TwinStickBP/Maps/TwinStickExampleMap_Auto2.umap
+[2016.02.23-08.14.07:298][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TwinStickBP/Maps/TwinStickExampleMap' took 0.582
+[2016.02.23-08.14.07:298][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.582
+[2016.02.23-08.24.57:285][ 41]BlueprintLog: New page: Compile NewBlueprint
+[2016.02.23-08.24.57:335][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.24.57:335][ 41]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.24.57:385][ 41]BlueprintEditorCompileResults: Info [3369.69] Compile of NewBlueprint successful! [in 100 ms]
+[2016.02.23-08.25.00:321][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-08.25.00:322][135]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:25:00 AM)
+[2016.02.23-08.25.00:322][135]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.25.00:330][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008038s)
+[2016.02.23-08.25.00:331][135]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.25.00:331][135]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2016.02.23-08.25.00:331][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009536s)
+[2016.02.23-08.25.00:331][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.25.00:331][135]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.25.00:380][135]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.25.00:389][135]LogInit: FAudioDevice initialized.
+[2016.02.23-08.25.00:427][135]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.25.00:431][135]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.25.00
+[2016.02.23-08.25.00:431][135]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.25.00:431][135]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.25.00:447][135]LogWorld: Bringing up level for play took: 0.019650
+[2016.02.23-08.25.00:448][135]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.803
+[2016.02.23-08.25.06:103][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008A59B240
+[2016.02.23-08.25.10:207][730]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.23-08.25.10:212][730]LogPlayLevel: [PlayLevel] Compiling NewBlueprint before play...
+[2016.02.23-08.25.10:264][730]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
+[2016.02.23-08.25.10:310][730]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:25:10 AM)
+[2016.02.23-08.25.10:310][730]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.25.10:318][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007410s)
+[2016.02.23-08.25.10:332][730]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.25.10:333][730]LogPlayLevel: PIE: World Init took: (0.014840s)
+[2016.02.23-08.25.10:333][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.022511s)
+[2016.02.23-08.25.10:381][730]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.25.10:388][730]LogInit: FAudioDevice initialized.
+[2016.02.23-08.25.10:449][730]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.25.10:454][730]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.25.10
+[2016.02.23-08.25.10:454][730]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.25.10:454][730]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.25.10:455][730]LogWorld: Bringing up level for play took: 0.004761
+[2016.02.23-08.25.10:467][730]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.821
+[2016.02.23-08.25.12:801][816]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C0FCE480
+[2016.02.23-08.27.25:347][227]BlueprintLog: New page: Compile NewBlueprint
+[2016.02.23-08.27.25:497][227]BlueprintEditorCompileResults: Info [3517.80] Compile of NewBlueprint successful! [in 149 ms]
+[2016.02.23-08.27.25:877][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/NewBlueprint" FILE="../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset" SILENT=true
+[2016.02.23-08.27.25:969][258]LogSavePackage: Save=85.902542ms
+[2016.02.23-08.27.25:969][258]LogSavePackage: Moving '../../../speedron/Saved/NewBlueprint84E45FCF4C46324C888513820373C637.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset'
+[2016.02.23-08.27.25:975][258]LogSavePackage: Total save time: 94.750293ms
+[2016.02.23-08.27.25:975][258]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset
+[2016.02.23-08.27.34:014][866]BlueprintLog: New page: Compile NewBlueprint
+[2016.02.23-08.27.34:115][866]BlueprintEditorCompileResults: Info [3526.41] Compile of NewBlueprint successful! [in 101 ms]
+[2016.02.23-08.27.34:481][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Blueprints/NewBlueprint" FILE="../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset" SILENT=true
+[2016.02.23-08.27.34:513][890]LogSavePackage: Save=27.594536ms
+[2016.02.23-08.27.34:513][890]LogSavePackage: Moving '../../../speedron/Saved/NewBlueprint2FA34E654633E230E7FC698E12607256.tmp' to '../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset'
+[2016.02.23-08.27.34:516][890]LogSavePackage: Total save time: 32.596733ms
+[2016.02.23-08.27.34:516][890]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Blueprints/NewBlueprint.uasset
+[2016.02.23-08.27.35:228][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-08.27.35:228][942]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:27:35 AM)
+[2016.02.23-08.27.35:228][942]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.27.35:250][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021750s)
+[2016.02.23-08.27.35:251][942]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.27.35:251][942]LogPlayLevel: PIE: World Init took: (0.001090s)
+[2016.02.23-08.27.35:251][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.023076s)
+[2016.02.23-08.27.35:299][942]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.27.35:308][942]LogInit: FAudioDevice initialized.
+[2016.02.23-08.27.35:383][942]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.27.35:388][942]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.27.35
+[2016.02.23-08.27.35:388][942]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.27.35:388][942]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.27.35:388][942]LogWorld: Bringing up level for play took: 0.004722
+[2016.02.23-08.27.35:399][942]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.258
+[2016.02.23-08.27.38:616][ 69]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000BEFE65C0
+[2016.02.23-08.27.42:139][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-08.27.42:139][194]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:27:42 AM)
+[2016.02.23-08.27.42:140][194]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.27.42:148][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008023s)
+[2016.02.23-08.27.42:149][194]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.27.42:149][194]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2016.02.23-08.27.42:149][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009472s)
+[2016.02.23-08.27.42:197][194]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.27.42:205][194]LogInit: FAudioDevice initialized.
+[2016.02.23-08.27.42:239][194]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.27.42:244][194]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.27.42
+[2016.02.23-08.27.42:244][194]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.27.42:244][194]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.27.42:244][194]LogWorld: Bringing up level for play took: 0.004261
+[2016.02.23-08.27.42:245][194]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.588
+[2016.02.23-08.27.47:354][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000C6E885E0
+[2016.02.23-08.28.04:649][584]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.23-08.28.04:654][584]LogPlayLevel: [PlayLevel] Compiling NewBlueprint before play...
+[2016.02.23-08.28.04:715][584]LogPlayLevel: PlayLevel: Blueprint regeneration took 65 ms (1 blueprints)
+[2016.02.23-08.28.04:762][584]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:28:04 AM)
+[2016.02.23-08.28.04:762][584]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.28.04:770][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007588s)
+[2016.02.23-08.28.04:770][584]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.28.04:771][584]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2016.02.23-08.28.04:771][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.008741s)
+[2016.02.23-08.28.04:818][584]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.28.04:832][584]LogInit: FAudioDevice initialized.
+[2016.02.23-08.28.04:900][584]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.28.04:908][584]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.28.04
+[2016.02.23-08.28.04:908][584]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.28.04:909][584]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.28.04:909][584]LogWorld: Bringing up level for play took: 0.008132
+[2016.02.23-08.28.04:921][584]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.263
+[2016.02.23-08.28.10:597][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007075C9A0
+[2016.02.23-08.28.15:579][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.28.15:580][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.28.16:535][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.23-08.28.16:598][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.23-08.28.16:661][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.23-08.28.16:723][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.23-08.28.17:959][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_194' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:959][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_279' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:959][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewBlueprint_C_172' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:959][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_171' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_175' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_25665' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_268' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_255' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_254' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_177' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_25665' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_269' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_255' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_254' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewBlueprint_C_158' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_255' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_254' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_173' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_25665' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:960][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_256' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_255' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_254' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_267' or package '/Game/TwinStickBP/Blueprints/NewBlueprint'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_255' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_Event_254' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_NewBlueprint_C_187' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_1' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_NewBlueprint_C_0' or package '/Engine/Transient'.
+[2016.02.23-08.28.17:961][125]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_NewBlueprint_C_186' or package '/Engine/Transient'.
+[2016.02.23-08.28.18:001][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EB299E0
+[2016.02.23-08.28.18:003][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000023401DA0
+[2016.02.23-08.28.18:004][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006F112020
+[2016.02.23-08.28.18:005][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008A59B560
+[2016.02.23-08.28.18:006][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013DA0860
+[2016.02.23-08.28.18:007][125]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005B3B9F80
+[2016.02.23-08.28.24:407][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.23-08.28.24:407][372]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.23-08.28.25:921][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TwinStickBP/Maps/TwinStickExampleMap" FILE="../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.23-08.28.26:373][372]LogSavePackage: Save=402.746033ms
+[2016.02.23-08.28.26:374][372]LogSavePackage: Moving '../../../speedron/Saved/TwinStickExampleMapBD507E9E454C9B57320FAA89E0C014B2.tmp' to '../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.23-08.28.26:376][372]LogSavePackage: Total save time: 411.952663ms
+[2016.02.23-08.28.26:376][372]LogSavePackage:Display: Finished SavePackage ../../../speedron/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.23-08.28.26:405][372]LogFileHelpers: Saving map 'TwinStickExampleMap' took 1.945
+[2016.02.23-08.33.44:172][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.23-08.33.44:172][ 92]PIE: New page: PIE session: TwinStickExampleMap (Feb 23, 2016, 10:33:44 AM)
+[2016.02.23-08.33.44:172][ 92]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.23-08.33.44:181][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008261s)
+[2016.02.23-08.33.44:182][ 92]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.23-08.33.44:182][ 92]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2016.02.23-08.33.44:182][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.009817s)
+[2016.02.23-08.33.44:227][ 92]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.23-08.33.44:235][ 92]LogInit: FAudioDevice initialized.
+[2016.02.23-08.33.44:303][ 92]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.23-08.33.44:308][ 92]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.23-09.33.44
+[2016.02.23-08.33.44:308][ 92]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_23 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.33.44:309][ 92]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.23-08.33.44:309][ 92]LogWorld: Bringing up level for play took: 0.005088
+[2016.02.23-08.33.44:331][ 92]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.712
+[2016.02.23-08.33.53:256][458]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000518E04A0
+[2016.02.23-08.37.48:961][247]Cmd: QUIT_EDITOR
+[2016.02.23-08.37.49:682][247]LogExit: Preparing to exit.
+[2016.02.23-08.37.50:329][247]LogExit: Editor shut down
+[2016.02.23-08.37.50:330][247]LogExit: Transaction tracking system shut down
+[2016.02.23-08.37.50:450][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000124A6840
+[2016.02.23-08.37.50:452][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E8BF920
+[2016.02.23-08.37.50:452][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001E9274C0
+[2016.02.23-08.37.50:457][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000052F2E480
+[2016.02.23-08.37.50:457][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004B214860
+[2016.02.23-08.37.51:985][247]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000BDA5C680
+[2016.02.23-08.37.51:985][247]LogExit: Object subsystem successfully closed.
+[2016.02.23-08.37.52:312][247]LogD3D11RHI: Shutdown
+[2016.02.23-08.37.52:312][247]LogD3D11RHI: CleanupD3DDevice
+[2016.02.23-08.37.52:687][247]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.23-08.37.53:830][247]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (204)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module CookingStats (203)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module SynthBenchmark (202)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module BlueprintGraph (201)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.02.23-08.37.53:831][247]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.02.23-08.37.53:837][247]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.02.23-08.37.53:881][247]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.02.23-08.37.53:881][247]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.02.23-08.37.53:898][247]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.02.23-08.37.53:916][247]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.02.23-08.37.53:924][247]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.02.23-08.37.53:939][247]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.02.23-08.37.53:939][247]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.02.23-08.37.53:939][247]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.02.23-08.37.53:939][247]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.02.23-08.37.53:939][247]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.02.23-08.37.53:940][247]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.02.23-08.37.53:940][247]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.02.23-08.37.53:940][247]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.02.23-08.37.53:940][247]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.02.23-08.37.53:940][247]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.02.23-08.37.53:982][247]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.02.23-08.37.53:998][247]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.02.23-08.37.54:026][247]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.02.23-08.37.54:026][247]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.02.23-08.37.54:039][247]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.02.23-08.37.54:039][247]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.02.23-08.37.54:562][247]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.02.23-08.37.54:562][247]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.02.23-08.37.54:562][247]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.02.23-08.37.54:562][247]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.02.23-08.37.54:579][247]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.02.23-08.37.54:579][247]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.02.23-08.37.54:596][247]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.02.23-08.37.54:600][247]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.02.23-08.37.54:611][247]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.02.23-08.37.54:618][247]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.02.23-08.37.54:624][247]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.02.23-08.37.54:638][247]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.02.23-08.37.54:644][247]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.02.23-08.37.54:651][247]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.02.23-08.37.54:651][247]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.02.23-08.37.54:660][247]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.02.23-08.37.54:661][247]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.02.23-08.37.54:672][247]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.02.23-08.37.54:672][247]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.02.23-08.37.54:707][247]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.02.23-08.37.54:707][247]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.02.23-08.37.54:712][247]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.02.23-08.37.54:731][247]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.02.23-08.37.54:743][247]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.02.23-08.37.54:748][247]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.02.23-08.37.54:748][247]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.02.23-08.37.54:761][247]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.02.23-08.37.54:766][247]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.02.23-08.37.54:776][247]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.02.23-08.37.54:798][247]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.02.23-08.37.54:798][247]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.02.23-08.37.54:798][247]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.02.23-08.37.54:798][247]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.02.23-08.37.54:874][247]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.02.23-08.37.54:874][247]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.02.23-08.37.54:874][247]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.02.23-08.37.54:876][247]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.02.23-08.37.54:876][247]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.02.23-08.37.54:888][247]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.02.23-08.37.54:898][247]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.02.23-08.37.54:898][247]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.02.23-08.37.54:905][247]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.02.23-08.37.54:905][247]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.02.23-08.37.54:915][247]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.02.23-08.37.54:915][247]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.02.23-08.37.54:915][247]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.02.23-08.37.54:915][247]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.02.23-08.37.54:930][247]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.02.23-08.37.54:936][247]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.02.23-08.37.54:937][247]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.02.23-08.37.55:131][247]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.02.23-08.37.55:147][247]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.23-08.37.55:155][247]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.23-08.37.55:208][247]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.23-08.37.55:208][247]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.23-08.37.55:211][247]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.23-08.37.55:211][247]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.23-08.37.55:237][247]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.23-08.37.55:251][247]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.23-08.37.55:251][247]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.23-08.37.55:251][247]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.23-08.37.55:263][247]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.23-08.37.55:275][247]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.23-08.37.55:296][247]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.23-08.37.55:302][247]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.23-08.37.55:302][247]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.23-08.37.55:311][247]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.23-08.37.55:325][247]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.23-08.37.55:344][247]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.23-08.37.55:359][247]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.23-08.37.55:359][247]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.23-08.37.55:369][247]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.23-08.37.55:369][247]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.23-08.37.55:369][247]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.23-08.37.55:381][247]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.23-08.37.55:394][247]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.23-08.37.55:394][247]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.23-08.37.55:409][247]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.02.23-08.37.55:410][247]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.02.23-08.37.55:427][247]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.02.23-08.37.55:527][247]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.02.23-08.37.55:528][247]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.02.23-08.37.55:655][247]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.02.23-08.37.55:682][247]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.23-08.37.55:682][247]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.23-08.37.55:691][247]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.23-08.37.55:706][247]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.23-08.37.55:706][247]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.23-08.37.55:755][247]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.23-08.37.55:755][247]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.23-08.37.55:756][247]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.23-08.37.55:756][247]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.23-08.37.55:799][247]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.23-08.37.55:799][247]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.23-08.37.55:813][247]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.23-08.37.55:813][247]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.23-08.37.55:813][247]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.23-08.37.55:842][247]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.23-08.37.55:863][247]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.23-08.37.55:896][247]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.23-08.37.55:942][247]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.23-08.37.55:942][247]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.23-08.37.55:945][247]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.23-08.37.55:963][247]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.23-08.37.55:994][247]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.23-08.37.56:090][247]LogDerivedDataCache: Shutdown
+[2016.02.23-08.37.56:091][247]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.23-08.37.56:106][247]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.23-08.37.56:108][247]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.23-08.37.56:117][247]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.23-08.37.56:117][247]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.23-08.37.56:125][247]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.23-08.37.56:128][247]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.23-08.37.56:132][247]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.23-08.37.56:132][247]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.23-08.37.56:132][247]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.23-08.37.56:132][247]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.23-08.37.56:141][247]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.23-08.37.56:149][247]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.23-08.37.56:154][247]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.23-08.37.56:154][247]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.23-08.37.56:166][247]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.23-08.37.56:169][247]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.23-08.37.56:173][247]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.23-08.37.56:182][247]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.23-08.37.56:184][247]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.23-08.37.56:184][247]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.23-08.37.56:184][247]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.23-08.37.56:184][247]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.23-08.37.56:185][247]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.23-08.37.56:185][247]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.23-08.37.58:185][247]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.23-08.37.58:214][247]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.23-08.37.58:232][247]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.23-08.37.58:232][247]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.23-08.37.58:252][247]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.23-08.37.58:252][247]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.23-08.37.58:252][247]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.23-08.37.58:296][247]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.23-08.37.58:309][247]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.23-08.37.58:309][247]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.23-08.37.58:309][247]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.23-08.37.58:309][247]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.23-08.37.58:310][247]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.23-08.37.58:310][247]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.23-08.37.58:317][247]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.23-08.37.58:330][247]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.23-08.37.58:339][247]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.23-08.37.58:353][247]LogExit: Exiting.
+[2016.02.23-08.37.58:427][247]Log file closed, 02/23/16 09:37:58
