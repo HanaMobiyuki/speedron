@@ -1,0 +1,608 @@
+﻿[2016.02.24-15.13.09:712][  0]Log file open, 02/24/16 16:13:09
+[2016.02.24-15.13.09:712][  0]LogInit:Display: Running engine for game: speedron
+[2016.02.24-15.13.09:712][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.24-15.13.09:713][  0]LogInit:Display: RandInit(491750057) SRandInit(491750059).
+[2016.02.24-15.13.09:713][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.24-15.13.09:713][  0]LogStats: Stats thread started at 0.077184
+[2016.02.24-15.13.09:713][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.24-15.13.09:713][  0]LogInit: API Version: 2758231
+[2016.02.24-15.13.09:713][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.24-15.13.09:713][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.24-15.13.09:713][  0]LogInit: Build Configuration: Development
+[2016.02.24-15.13.09:713][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.24-15.13.09:713][  0]LogInit: Command line: 
+[2016.02.24-15.13.09:713][  0]LogInit: Base directory: D:/programmes/unreal engine/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.24-15.13.09:713][  0]LogInit: Rocket: 1
+[2016.02.24-15.13.09:718][  0]LogInit: Using libcurl 7.41.0
+[2016.02.24-15.13.09:718][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.24-15.13.09:718][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.24-15.13.09:718][  0]LogInit:  - other features:
+[2016.02.24-15.13.09:718][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.24-15.13.09:718][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.24-15.13.09:719][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.24-15.13.09:719][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.24-15.13.09:719][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.24-15.13.09:719][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.24-15.13.09:719][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.24-15.13.09:719][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.24-15.13.09:719][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.24-15.13.09:719][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.24-15.13.09:725][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.24-15.13.09:732][  0]LogInit: Object subsystem initialized
+[2016.02.24-15.13.09:732][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-15.13.09:732][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.24-15.13.09:759][  0]LogInit: Computer: JAK852
+[2016.02.24-15.13.09:759][  0]LogInit: User: Evann
+[2016.02.24-15.13.09:759][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.24-15.13.09:759][  0]LogInit: High frequency timer resolution =3.312791 MHz
+[2016.02.24-15.13.09:759][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.02.24-15.13.09:759][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.24-15.13.09:759][  0]LogMemory: Process Physical Memory: 55.93 MB used, 55.93 MB peak
+[2016.02.24-15.13.09:759][  0]LogMemory: Process Virtual Memory: 58.72 MB used, 58.72 MB peak
+[2016.02.24-15.13.09:759][  0]LogMemory: Physical Memory: 3891.32 MB used, 8175.23 MB total
+[2016.02.24-15.13.09:759][  0]LogMemory: Virtual Memory: 385.30 MB used, 134217728.00 MB total
+[2016.02.24-15.13.09:888][  0]LogTextLocalizationManager: No translations for ('fr-FR') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.24-15.13.10:723][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 7700 Series (Feature Level 11_0)
+[2016.02.24-15.13.10:723][  0]LogD3D11RHI: Adapter has 1006MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 2 output[s]
+[2016.02.24-15.13.10:724][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.24-15.13.10:724][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4087MB of shared system memory, 0 output[s]
+[2016.02.24-15.13.10:724][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.24-15.13.10:731][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.24-15.13.10:731][  0]LogRHI: Texture pool is 704 MB (70% of 1006 MB)
+[2016.02.24-15.13.10:736][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.02.24-15.13.10:746][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Intermediate/Shaders/WorkingDirectory/32316/).
+[2016.02.24-15.13.10:746][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Evann/AppData/Local/Temp/UnrealShaderWorkingDir/41428FC5465C65031D37F19B29BCD1D3/'.
+[2016.02.24-15.13.10:746][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.24-15.13.15:100][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.24-15.13.15:104][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.24-15.13.15:108][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.24-15.13.15:113][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.24-15.13.15:117][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.24-15.13.15:119][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.24-15.13.15:122][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.24-15.13.15:124][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.24-15.13.15:127][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.24-15.13.15:130][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.24-15.13.15:132][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.24-15.13.15:138][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.24-15.13.15:138][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.24-15.13.15:138][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.24-15.13.15:154][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.24-15.13.15:157][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.24-15.13.15:159][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.24-15.13.15:196][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.24-15.13.15:196][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.24-15.13.15:270][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache: Loaded boot cache 0.28s 41MB C:/Users/Evann/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Evann/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.24-15.13.15:549][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.24-15.13.15:602][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.24-15.13.15:614][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Evann/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.24-15.13.15:791][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.24-15.13.15:794][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.24-15.13.15:934][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.24-15.13.15:934][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.24-15.13.16:204][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.24-15.13.31:186][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.02.24-15.13.31:199][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.24-15.13.32:449][  0]SourceControl: Info Source control is disabled
+[2016.02.24-15.13.32:450][  0]SourceControl: Info Source control is disabled
+[2016.02.24-15.13.32:459][  0]SourceControl: Info Source control is disabled
+[2016.02.24-15.13.32:471][  0]SourceControl: Info Source control is disabled
+[2016.02.24-15.13.32:857][  0]LogObj: 28803 objects as part of root set at end of initial load.
+[2016.02.24-15.13.32:857][  0]LogUObjectAllocator: 6130064 out of 0 bytes used by permanent object pool.
+[2016.02.24-15.13.32:944][  0]LogEngine: Initializing Engine...
+[2016.02.24-15.13.32:948][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-15.13.32:949][  0]LogHMD: SteamVR failed to initialize.  Err: 100
+[2016.02.24-15.13.33:317][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.24-15.13.33:326][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-15.13.33:336][  0]LogInit: FAudioDevice initialized.
+[2016.02.24-15.13.33:356][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Evann/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.24-15.13.33:358][  0]LogInit: Texture streaming: Enabled
+[2016.02.24-15.13.33:363][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.24-15.13.33:363][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.24-15.13.33:363][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId fd7fcd6145c2d49cfe7e4393ff2be6d0|268d3e625b094d6baa5bbf4050d265fa|823c25f2-e8e2-48bc-85ba-fee7c8358a4d
+[2016.02.24-15.13.33:363][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.24-15.13.33:391][  0]LogInit: Transaction tracking system initialized
+[2016.02.24-15.13.33:417][  0]BlueprintLog: New page: Editor Load
+[2016.02.24-15.13.33:513][  0]LocalizationService: Info Localization service is disabled
+[2016.02.24-15.13.34:047][  0]LogConsoleResponse:Display: 
+[2016.02.24-15.13.34:508][  0]LogFileCache: Scanning file cache for directory 'D:/Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/' took 0.03s
+[2016.02.24-15.13.34:508][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.24-15.13.34:783][  0]SourceControl: Info Source control is disabled
+[2016.02.24-15.13.34:783][  0]Cmd: MAP LOAD FILE="../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/TwinStickBP/Maps/TwinStickExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.24-15.13.35:049][  0]LightingResults: New page: Lighting Build
+[2016.02.24-15.13.35:052][  0]MapCheck: New page: Map Check
+[2016.02.24-15.13.35:052][  0]LightingResults: New page: Lighting Build
+[2016.02.24-15.13.35:062][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021B8694D620
+[2016.02.24-15.13.35:842][  0]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.24-15.13.36:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.24-15.13.36:064][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.24-15.13.36:124][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_19.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_20.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_21.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_22.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_23.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_24.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning TwinStickPawn_C_1 TwinStickPawn_C /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickPawn_C_1 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning ShipMeshComponent StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TwinStickPawn_C_1.ShipMeshComponent : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall1_17.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Floor_18.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Obstacle1_2.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Obstacle2_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall1_17.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall5.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall6.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Wall7.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_19.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_20.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_21.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_22.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_23.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_24.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:125][  0]MapCheck:Warning: Warning StaticMeshComponent0 StaticMeshComponent /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.TemplateCube_Rounded_3.StaticMeshComponent0 : Externally referenced 
+[2016.02.24-15.13.36:126][  0]MapCheck: Info Map check complete: 0 Error(s), 24 Warning(s), took 61.842ms to complete.
+[2016.02.24-15.13.36:256][  0]LogFileHelpers: Loading map 'TwinStickExampleMap' took 1.473
+[2016.02.24-15.13.37:102][  0]LogCollectionManager: Loaded 0 collections in 0.001913 seconds
+[2016.02.24-15.13.37:201][  0]LogFileCache: Scanning file cache for directory 'D:/Evann/Documents/Unreal Projects/speedron/speedron_BP/Saved/Collections/' took 0.01s
+[2016.02.24-15.13.37:201][  0]LogFileCache: Scanning file cache for directory 'D:/Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/Developers/Evann/Collections/' took 0.01s
+[2016.02.24-15.13.37:201][  0]LogFileCache: Scanning file cache for directory 'D:/Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/Collections/' took 0.01s
+[2016.02.24-15.13.37:201][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.24-15.13.37:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 1908 classes and 344 folders.
+[2016.02.24-15.13.37:316][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.24-15.13.38:554][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.24-15.13.38:642][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.02.24-15.13.39:367][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.24-15.13.39:527][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.24-15.13.39:564][  0]LogLoad: Full Startup: 31.35 seconds (BP compile: 0.18 seconds)
+[2016.02.24-15.13.39:907][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.24-15.13.40:088][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.24-15.13.40:815][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2016.02.24-15.13.42:610][  4]LogAssetRegistry: Asset discovery search completed in 11.4349 seconds
+[2016.02.24-15.13.42:610][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.24-15.13.42:610][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.02.24-15.13.48:273][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-15.13.48:319][229]PIE: New page: PIE session: TwinStickExampleMap (Feb 24, 2016, 5:13:48 PM)
+[2016.02.24-15.13.48:346][229]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.24-15.13.48:388][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041518s)
+[2016.02.24-15.13.48:388][229]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.24-15.13.48:388][229]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2016.02.24-15.13.48:406][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.060494s)
+[2016.02.24-15.13.48:407][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.24-15.13.48:407][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.24-15.13.48:465][229]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-15.13.48:474][229]LogInit: FAudioDevice initialized.
+[2016.02.24-15.13.48:590][229]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.24-15.13.48:637][229]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.24-16.13.48
+[2016.02.24-15.13.48:637][229]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.13.48:637][229]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.13.48:687][229]LogWorld: Bringing up level for play took: 0.053308
+[2016.02.24-15.13.48:788][229]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 1.062
+[2016.02.24-15.13.52:741][601]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BF8B2C720
+[2016.02.24-15.13.53:977][656]LogMaterial: Missing cached shader map for material M_impulse, compiling. 
+[2016.02.24-15.13.54:275][656]LogMaterial: Missing cached shader map for material M_impulse, compiling. 
+[2016.02.24-15.13.55:577][656]LogMaterial: Missing cached shader map for material M_impulse, compiling. 
+[2016.02.24-15.13.55:580][656]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.24-15.13.58:666][777]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.02.24-15.13.58:666][777]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.02.24-15.13.58:666][777]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.24-15.14.02:727][229]LogMaterial: Missing cached shader map for material M_impulse, compiling. 
+[2016.02.24-15.14.02:730][229]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.24-15.14.04:319][367]MaterialEditorStats: Info Base pass shader without light map: 4 instructions
+[2016.02.24-15.14.04:319][367]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.02.24-15.14.04:319][367]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.02.24-15.26.50:435][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-15.26.50:435][844]PIE: New page: PIE session: TwinStickExampleMap (Feb 24, 2016, 5:26:50 PM)
+[2016.02.24-15.26.50:437][844]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.24-15.26.50:461][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024090s)
+[2016.02.24-15.26.50:464][844]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.24-15.26.50:465][844]LogPlayLevel: PIE: World Init took: (0.004084s)
+[2016.02.24-15.26.50:467][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.030499s)
+[2016.02.24-15.26.50:467][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.24-15.26.50:468][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.24-15.26.50:555][844]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-15.26.50:566][844]LogInit: FAudioDevice initialized.
+[2016.02.24-15.26.50:605][844]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.24-15.26.50:609][844]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.24-16.26.50
+[2016.02.24-15.26.50:609][844]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.26.50:610][844]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.26.50:610][844]LogWorld: Bringing up level for play took: 0.004193
+[2016.02.24-15.26.50:653][844]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.927
+[2016.02.24-15.27.14:681][274]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BB88D4900
+[2016.02.24-15.35.33:364][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-15.35.33:364][103]PIE: New page: PIE session: TwinStickExampleMap (Feb 24, 2016, 5:35:33 PM)
+[2016.02.24-15.35.33:364][103]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.24-15.35.33:371][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006701s)
+[2016.02.24-15.35.33:371][103]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.24-15.35.33:372][103]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2016.02.24-15.35.33:372][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007694s)
+[2016.02.24-15.35.33:372][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.24-15.35.33:372][103]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.24-15.35.33:391][103]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-15.35.33:401][103]LogInit: FAudioDevice initialized.
+[2016.02.24-15.35.33:434][103]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.24-15.35.33:438][103]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.24-16.35.33
+[2016.02.24-15.35.33:438][103]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.35.33:438][103]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.35.33:438][103]LogWorld: Bringing up level for play took: 0.003619
+[2016.02.24-15.35.33:439][103]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap -0.286
+[2016.02.24-15.35.36:575][420]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BB88D6CA0
+[2016.02.24-15.35.44:420][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.24-15.35.44:420][881]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.24-15.35.44:433][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BF8633E20
+[2016.02.24-15.37.32:546][758]LogMaterial: Missing cached shader map for material M_Impact, compiling. 
+[2016.02.24-15.37.35:076][906]LogActorFactory: Actor Factory created Cube
+[2016.02.24-15.37.35:542][934]LogActorFactory: Actor Factory created Cube
+[2016.02.24-15.37.51:784][101]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.37.51:784][101]PIE:Warning: Warning Scale ''X=1.000 Y=1.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.37.55:231][350]LogMaterial: Missing cached shader map for material M_Impact, compiling. 
+[2016.02.24-15.37.55:362][350]LogMaterial: Missing cached shader map for material M_Impact, compiling. 
+[2016.02.24-15.37.55:365][350]LogMaterial: 0.000024 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.02.24-15.37.55:421][350]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2016.02.24-15.37.59:780][634]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2016.02.24-15.38.01:190][725]LogMaterial: Missing cached shader map for material M_Impact, compiling. 
+[2016.02.24-15.38.09:614][387]PIE:Warning: Warning Scale ''X=1.000 Y=1.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:614][387]PIE:Warning: Warning Scale ''X=1.000 Y=1.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:639][389]PIE:Warning: Warning Scale ''X=1.000 Y=1.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:639][389]PIE:Warning: Warning Scale ''X=1.000 Y=1.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:664][391]PIE:Warning: Warning Scale ''X=1.000 Y=1.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:664][391]PIE:Warning: Warning Scale ''X=1.000 Y=1.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:677][392]PIE:Warning: Warning Scale ''X=1.000 Y=2.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:677][392]PIE:Warning: Warning Scale ''X=1.000 Y=2.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:690][393]PIE:Warning: Warning Scale ''X=1.000 Y=2.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:690][393]PIE:Warning: Warning Scale ''X=1.000 Y=2.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:702][394]PIE:Warning: Warning Scale ''X=1.000 Y=2.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:702][394]PIE:Warning: Warning Scale ''X=1.000 Y=2.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:715][395]PIE:Warning: Warning Scale ''X=1.000 Y=2.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:715][395]PIE:Warning: Warning Scale ''X=1.000 Y=2.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:728][396]PIE:Warning: Warning Scale ''X=1.000 Y=3.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:728][396]PIE:Warning: Warning Scale ''X=1.000 Y=3.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:741][397]PIE:Warning: Warning Scale ''X=1.000 Y=3.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:741][397]PIE:Warning: Warning Scale ''X=1.000 Y=3.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:754][398]PIE:Warning: Warning Scale ''X=1.000 Y=3.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:754][398]PIE:Warning: Warning Scale ''X=1.000 Y=3.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:767][399]PIE:Warning: Warning Scale ''X=1.000 Y=3.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:767][399]PIE:Warning: Warning Scale ''X=1.000 Y=3.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:780][400]PIE:Warning: Warning Scale ''X=1.000 Y=4.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:780][400]PIE:Warning: Warning Scale ''X=1.000 Y=4.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:793][401]PIE:Warning: Warning Scale ''X=1.000 Y=4.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:793][401]PIE:Warning: Warning Scale ''X=1.000 Y=4.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:806][402]PIE:Warning: Warning Scale ''X=1.000 Y=4.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:806][402]PIE:Warning: Warning Scale ''X=1.000 Y=4.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:831][404]PIE:Warning: Warning Scale ''X=1.000 Y=4.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:831][404]PIE:Warning: Warning Scale ''X=1.000 Y=4.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:844][405]PIE:Warning: Warning Scale ''X=1.000 Y=5.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:844][405]PIE:Warning: Warning Scale ''X=1.000 Y=5.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:857][406]PIE:Warning: Warning Scale ''X=1.000 Y=5.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:857][406]PIE:Warning: Warning Scale ''X=1.000 Y=5.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:870][407]PIE:Warning: Warning Scale ''X=1.000 Y=5.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:870][407]PIE:Warning: Warning Scale ''X=1.000 Y=5.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:883][408]PIE:Warning: Warning Scale ''X=1.000 Y=5.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:883][408]PIE:Warning: Warning Scale ''X=1.000 Y=5.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:896][409]PIE:Warning: Warning Scale ''X=1.000 Y=6.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:896][409]PIE:Warning: Warning Scale ''X=1.000 Y=6.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:909][410]PIE:Warning: Warning Scale ''X=1.000 Y=6.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:909][410]PIE:Warning: Warning Scale ''X=1.000 Y=6.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:922][411]PIE:Warning: Warning Scale ''X=1.000 Y=6.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:922][411]PIE:Warning: Warning Scale ''X=1.000 Y=6.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:934][412]PIE:Warning: Warning Scale ''X=1.000 Y=6.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:934][412]PIE:Warning: Warning Scale ''X=1.000 Y=6.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:960][414]PIE:Warning: Warning Scale ''X=1.000 Y=7.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:960][414]PIE:Warning: Warning Scale ''X=1.000 Y=7.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:973][415]PIE:Warning: Warning Scale ''X=1.000 Y=7.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:973][415]PIE:Warning: Warning Scale ''X=1.000 Y=7.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:986][416]PIE:Warning: Warning Scale ''X=1.000 Y=7.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.09:986][416]PIE:Warning: Warning Scale ''X=1.000 Y=7.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:012][418]PIE:Warning: Warning Scale ''X=1.000 Y=7.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:012][418]PIE:Warning: Warning Scale ''X=1.000 Y=7.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:050][421]PIE:Warning: Warning Scale ''X=1.000 Y=8.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:051][421]PIE:Warning: Warning Scale ''X=1.000 Y=8.000 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:076][423]PIE:Warning: Warning Scale ''X=1.000 Y=8.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:076][423]PIE:Warning: Warning Scale ''X=1.000 Y=8.250 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:142][428]PIE:Warning: Warning Scale ''X=1.000 Y=8.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:142][428]PIE:Warning: Warning Scale ''X=1.000 Y=8.500 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:206][433]PIE:Warning: Warning Scale ''X=1.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.10:206][433]PIE:Warning: Warning Scale ''X=1.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.11:975][554]PIE:Warning: Warning Scale ''X=1.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.11:975][554]PIE:Warning: Warning Scale ''X=1.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.11:996][555]PIE:Warning: Warning Scale ''X=1.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.11:996][555]PIE:Warning: Warning Scale ''X=1.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:039][557]PIE:Warning: Warning Scale ''X=2.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:039][557]PIE:Warning: Warning Scale ''X=2.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:060][558]PIE:Warning: Warning Scale ''X=2.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:060][558]PIE:Warning: Warning Scale ''X=2.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:081][559]PIE:Warning: Warning Scale ''X=2.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:081][559]PIE:Warning: Warning Scale ''X=2.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:102][560]PIE:Warning: Warning Scale ''X=3.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:102][560]PIE:Warning: Warning Scale ''X=3.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:124][561]PIE:Warning: Warning Scale ''X=3.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:124][561]PIE:Warning: Warning Scale ''X=3.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:145][562]PIE:Warning: Warning Scale ''X=3.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:145][562]PIE:Warning: Warning Scale ''X=3.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:167][563]PIE:Warning: Warning Scale ''X=4.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:167][563]PIE:Warning: Warning Scale ''X=4.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:188][564]PIE:Warning: Warning Scale ''X=4.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:188][564]PIE:Warning: Warning Scale ''X=4.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:210][565]PIE:Warning: Warning Scale ''X=4.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:210][565]PIE:Warning: Warning Scale ''X=4.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:480][587]PIE:Warning: Warning Scale ''X=4.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:480][587]PIE:Warning: Warning Scale ''X=4.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:493][588]PIE:Warning: Warning Scale ''X=5.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:493][588]PIE:Warning: Warning Scale ''X=5.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:506][589]PIE:Warning: Warning Scale ''X=5.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:506][589]PIE:Warning: Warning Scale ''X=5.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:519][590]PIE:Warning: Warning Scale ''X=5.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:519][590]PIE:Warning: Warning Scale ''X=5.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:532][591]PIE:Warning: Warning Scale ''X=5.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:532][591]PIE:Warning: Warning Scale ''X=5.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:545][592]PIE:Warning: Warning Scale ''X=6.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:545][592]PIE:Warning: Warning Scale ''X=6.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:558][593]PIE:Warning: Warning Scale ''X=6.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:558][593]PIE:Warning: Warning Scale ''X=6.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:571][594]PIE:Warning: Warning Scale ''X=6.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:571][594]PIE:Warning: Warning Scale ''X=6.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:584][595]PIE:Warning: Warning Scale ''X=7.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:584][595]PIE:Warning: Warning Scale ''X=7.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:597][596]PIE:Warning: Warning Scale ''X=7.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:597][596]PIE:Warning: Warning Scale ''X=7.500 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:610][597]PIE:Warning: Warning Scale ''X=7.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:610][597]PIE:Warning: Warning Scale ''X=7.750 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:636][599]PIE:Warning: Warning Scale ''X=8.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:636][599]PIE:Warning: Warning Scale ''X=8.000 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:662][601]PIE:Warning: Warning Scale ''X=8.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.12:662][601]PIE:Warning: Warning Scale ''X=8.250 Y=8.750 Z=0.000'' is not valid on object '/Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2016.02.24-15.38.16:257][820]LogRenderer: Reallocating scene render targets to support 1392x920 (Frame:12100).
+[2016.02.24-15.38.17:486][937]LogMaterial: Missing cached shader map for material M_Impact, compiling. 
+[2016.02.24-15.38.17:491][937]LogMaterial: 0.001311 seconds spent updating 1 materials, 1 interfaces, 1 instances, 1 with static permutations.
+[2016.02.24-15.38.18:466][997]LogSavePackage: Save=121.354172ms
+[2016.02.24-15.38.18:466][997]LogSavePackage: Moving '../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Saved/MI_ImpactCE54D45543541817288813AB2DF36FFA.tmp' to '../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/VFXMatPack/MaterialInstance/MI_Impact.uasset'
+[2016.02.24-15.38.18:484][997]LogSavePackage: Total save time: 193.316754ms
+[2016.02.24-15.38.18:484][997]LogSavePackage:Display: Finished SavePackage ../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/VFXMatPack/MaterialInstance/MI_Impact.uasset
+[2016.02.24-15.38.22:257][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.24-15.38.22:257][287]PIE: New page: PIE session: TwinStickExampleMap (Feb 24, 2016, 5:38:22 PM)
+[2016.02.24-15.38.22:257][287]LogPlayLevel: Creating play world package: /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap
+[2016.02.24-15.38.22:263][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006073s)
+[2016.02.24-15.38.22:264][287]LogAIModule: Creating AISystem for world TwinStickExampleMap
+[2016.02.24-15.38.22:264][287]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2016.02.24-15.38.22:264][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TwinStickBP/Maps/TwinStickExampleMap.TwinStickExampleMap to /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap (0.007122s)
+[2016.02.24-15.38.22:264][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_8) Not registered. Aborting.
+[2016.02.24-15.38.22:264][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.02.24-15.38.22:274][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BF740BC40
+[2016.02.24-15.38.22:305][287]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.24-15.38.22:314][287]LogInit: FAudioDevice initialized.
+[2016.02.24-15.38.22:346][287]LogWorld: Game class is 'TwinStickGameMode_C'
+[2016.02.24-15.38.22:350][287]LogPrimitiveComponent: Zero scaling not supported (/Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.Cube_4.StaticMeshComponent0)
+[2016.02.24-15.38.22:350][287]LogWorld: Bringing World /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap up for play (max tick rate 0) at 2016.02.24-16.38.22
+[2016.02.24-15.38.22:350][287]LogActor:Warning: GameSession /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.38.22:350][287]LogActor:Warning: GameNetworkManager /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap.TwinStickExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.24-15.38.22:350][287]LogWorld: Bringing up level for play took: 0.003528
+[2016.02.24-15.38.22:351][287]PIE: Info Play in editor start time for /Game/TwinStickBP/Maps/UEDPIE_0_TwinStickExampleMap 0.626
+[2016.02.24-15.38.28:185][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021B8F422A20
+[2016.02.24-15.38.38:175][454]LogSavePackage: Save=220.779694ms
+[2016.02.24-15.38.38:175][454]LogSavePackage: Moving '../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Saved/TwinStickExampleMap5A48157644664147B7F8A995F42A3AC4.tmp' to '../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/TwinStickBP/Maps/TwinStickExampleMap.umap'
+[2016.02.24-15.38.38:212][454]LogSavePackage: Total save time: 262.175005ms
+[2016.02.24-15.38.38:212][454]LogSavePackage:Display: Finished SavePackage ../../../../../../../Evann/Documents/Unreal Projects/speedron/speedron_BP/Content/TwinStickBP/Maps/TwinStickExampleMap.umap
+[2016.02.24-15.38.38:247][454]LogFileHelpers: Saving map 'TwinStickExampleMap' took 2.159
+[2016.02.24-15.38.41:984][739]Cmd: QUIT_EDITOR
+[2016.02.24-15.38.42:052][739]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.24-15.38.42:108][739]LogExit: Preparing to exit.
+[2016.02.24-15.38.42:758][739]LogExit: Editor shut down
+[2016.02.24-15.38.42:759][739]LogExit: Transaction tracking system shut down
+[2016.02.24-15.38.42:761][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BBD4DDBC0
+[2016.02.24-15.38.42:761][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BBD4DC900
+[2016.02.24-15.38.42:763][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BF89D1A80
+[2016.02.24-15.38.42:764][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021B8F7A0680
+[2016.02.24-15.38.42:927][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021B92FF6200
+[2016.02.24-15.38.42:927][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021B8F423240
+[2016.02.24-15.38.42:927][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000021BF73D1440
+[2016.02.24-15.38.42:927][739]LogExit: Object subsystem successfully closed.
+[2016.02.24-15.38.42:951][739]LogD3D11RHI: Shutdown
+[2016.02.24-15.38.42:951][739]LogD3D11RHI: CleanupD3DDevice
+[2016.02.24-15.38.43:062][739]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module CookingStats (202)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module MaterialEditor (201)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module CrashTracker (200)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module SceneOutliner (199)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module SuperSearch (198)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module WidgetCarousel (197)
+[2016.02.24-15.38.43:078][739]LogModuleManager: Shutting down and abandoning module AddContentDialog (196)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module EditorWidgets (195)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module CollectionManager (194)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module StatsViewer (193)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module FoliageEdit (192)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module LandscapeEditor (191)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module ActorPickerMode (190)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module GeometryMode (189)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module TextureAlignMode (188)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module BspMode (187)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module PlacementMode (186)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module AutomationWorker (185)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module CharacterAI (184)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module SmartSnapping (183)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module ViewportSnapping (182)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module LogVisualizer (181)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (180)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module IntroTutorials (179)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (178)
+[2016.02.24-15.38.43:181][739]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (177)
+[2016.02.24-15.38.43:182][739]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (176)
+[2016.02.24-15.38.43:182][739]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (175)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (174)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (173)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (172)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module MergeActors (171)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module SizeMap (170)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module TreeMap (169)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module ReferenceViewer (168)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module LocalizationService (167)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (166)
+[2016.02.24-15.38.49:965][739]LogModuleManager: Shutting down and abandoning module HardwareTargeting (165)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (164)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module UndoHistory (163)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (162)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module UserFeedback (161)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module XmlParser (160)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module Blutility (159)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (158)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (157)
+[2016.02.24-15.38.49:966][739]LogModuleManager: Shutting down and abandoning module InputBindingEditor (156)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (155)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module SettingsEditor (154)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module ProjectLauncher (153)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module SessionFrontend (152)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module ProfilerClient (151)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (150)
+[2016.02.24-15.38.49:967][739]LogModuleManager: Shutting down and abandoning module DeviceManager (149)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module AutomationController (148)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module AutomationWindow (147)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module Layers (146)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (145)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module DetailCustomizations (144)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module PackagesDialog (143)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module Persona (142)
+[2016.02.24-15.38.49:968][739]LogModuleManager: Shutting down and abandoning module Kismet (141)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module GraphEditor (140)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module ClassViewer (139)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module Toolbox (138)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module ModuleUI (137)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module MovieSceneTools (136)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module OutputLog (135)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module GammaUI (134)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module Documentation (133)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (132)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (131)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module AnalyticsET (130)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module Analytics (129)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.02.24-15.38.49:969][739]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.02.24-15.38.50:116][739]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.02.24-15.38.50:116][739]LogModuleManager: Shutting down and abandoning module SubstanceEditor (123)
+[2016.02.24-15.38.50:116][739]LogModuleManager: Shutting down and abandoning module SlateRemote (122)
+[2016.02.24-15.38.50:116][739]LogModuleManager: Shutting down and abandoning module SteamVRController (121)
+[2016.02.24-15.38.50:117][739]LogModuleManager: Shutting down and abandoning module SteamVR (120)
+[2016.02.24-15.38.50:117][739]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (119)
+[2016.02.24-15.38.50:117][739]LogModuleManager: Shutting down and abandoning module OculusLibrary (118)
+[2016.02.24-15.38.50:117][739]LogModuleManager: Shutting down and abandoning module OculusInput (117)
+[2016.02.24-15.38.50:117][739]LogModuleManager: Shutting down and abandoning module LeapMotionController (116)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (115)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module CableComponent (114)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (113)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module MessagingDebugger (112)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (111)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module HTML5Networking (110)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (109)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module PluginBrowser (108)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module EpicSurvey (107)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module DesktopPlatform (106)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (105)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module UObjectPlugin (104)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (103)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (102)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module SourceControl (101)
+[2016.02.24-15.38.50:152][739]LogModuleManager: Shutting down and abandoning module GitSourceControl (100)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (99)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (98)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (97)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module MeshPaint (96)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module SlateReflector (95)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module MainFrame (93)
+[2016.02.24-15.38.50:153][739]LogModuleManager: Shutting down and abandoning module LevelEditor (92)
+[2016.02.24-15.38.50:154][739]LogModuleManager: Shutting down and abandoning module ContentBrowser (91)
+[2016.02.24-15.38.50:155][739]LogModuleManager: Shutting down and abandoning module Paper2DEditor (90)
+[2016.02.24-15.38.50:155][739]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
+[2016.02.24-15.38.50:255][739]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (88)
+[2016.02.24-15.38.50:261][739]LogModuleManager: Shutting down and abandoning module AssetRegistry (87)
+[2016.02.24-15.38.50:389][739]LogModuleManager: Shutting down and abandoning module SubstanceCore (86)
+[2016.02.24-15.38.50:389][739]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.24-15.38.50:389][739]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.24-15.38.50:389][739]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.24-15.38.50:392][739]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.24-15.38.50:392][739]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.24-15.38.50:392][739]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.24-15.38.50:393][739]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.24-15.38.50:395][739]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.24-15.38.50:466][739]LogDerivedDataCache: Shutdown
+[2016.02.24-15.38.50:466][739]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.24-15.38.50:466][739]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.24-15.38.50:467][739]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.24-15.38.50:468][739]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.24-15.38.52:471][739]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.24-15.38.52:479][739]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.24-15.38.52:480][739]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.24-15.38.52:480][739]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.24-15.38.52:480][739]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.24-15.38.52:480][739]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.24-15.38.52:482][739]LogExit: Exiting.
+[2016.02.24-15.38.52:528][739]Log file closed, 02/24/16 16:38:52
