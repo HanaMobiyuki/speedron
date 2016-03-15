@@ -1,3 +1,4 @@
 # speedron
 Speedron project
-I'm crying faggot, fak u
+# OMG Okusen u suck
+# Faggot i'm crying so much
